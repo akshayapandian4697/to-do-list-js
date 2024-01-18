@@ -1,0 +1,84 @@
+/* Style the whole landing page */
+.landing-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+}
+
+/* Styling the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    flex: 1.5;
+}
+
+.nav-item {
+    padding: 1rem;
+    margin: 0 2vw;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Styling the main content area */
+
+.landing-area {
+    margin: 20vh auto 0 auto;
+    justify-content: center;
+    flex: 9;
+}
+
+/* Styling the text */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+    margin: 1rem;
+}
+
+.intro {
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.content {
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    display: grid;
+    justify-content: center;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
+    padding-inline-start: 1rem;
+}
+
+.brand {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #DC981A;
+}
+
+/* Styling the action buttons */
+.button {
+    margin: 1rem;
+    display: grid;
+    justify-content: center;
+}
+
+.action-button {
+    padding: 1rem;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #DC981A;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
